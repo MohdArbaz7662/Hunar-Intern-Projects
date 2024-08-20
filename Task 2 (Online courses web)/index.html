@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Education</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- ---------------Home Page---------------- -->
+
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logo.png" alt=""></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <li><a href="">REGISTRATION</a></li>
+                    <li><a href="">COURSES</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="textbox">
+            <h1>Best Online Courses</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Deserunt rerum dolorum esse perferendis
+                placeat dolorem</p>
+            <a href="" class="main-btn">Join Us</a>
+        </div>
+    </section>
+
+    <!-- ---------------------Courses-------------------- -->
+
+    <section class="course">
+        <h1>Courses we Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Web Devlopement</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, voluptate error. Recusandae similique
+                    adipisci quis?</p>
+            </div>
+            <div class="course-col">
+                <h3>Database Management</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, voluptate error. Recusandae similique
+                    adipisci quis?</p>
+            </div>
+            <div class="course-col">
+                <h3>Data Struckture</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, voluptate error. Recusandae similique
+                    adipisci quis?</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ---------------------Our Projrcts-------------------- -->
+
+    <section class="projects">
+        <h1>Our Projects</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere suscipit aliquam incidunt temporibus.</p>
+        <div class="row">
+            <div class="Projects">
+                <img src="netflix1.png" alt="Netflix Clone">
+                <img src="landing page.png" alt="landing page">
+                <img src="portfolio.png" alt="personal portfolio">
+                <img src="temprature converter.png" alt="temprature converter">
+                <img src="calculator.png" alt="simple calculator">
+                <img src="onlinecourse.png" alt="Online Course">
+            </div>
+        </div>
+
+        <!-- ------------------testimonials--------------- -->
+
+        <section class="testimonials">
+            <h1>What Our Students  Says</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+            <div class="row">
+                <div class="testimonials-col">
+                    <img src="user1.jpg">
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ratione doloremque magni iure, aliquid consequuntur!</p>
+                        <h3>Christine Berkley</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="testimonials-col">
+                    <img src="user2.jpg">
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ratione doloremque magni iure, aliquid consequuntur!</p>
+                        <h3>David Byer</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- -----------Call To Action--------- -->
+        <section class="cta">
+            <h1>Enroll for Our Various Online Courses <br>Anywhere From The World</h1>  
+            <a href="" class="main-btn">CONTACT US</a>
+        </section>
+
+        <!-- ----------------Footer----------------- -->
+ 
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, eligendi architecto.<br>Magnam ipsam quae ad incidunt quaerat saepe? Architecto, cumque?</p>
+            <div class="icons">
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-square-x-twitter"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-regular fa-envelope"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart"></i>: by Mohd Arbaz</p>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!------------Java Script toggel button------------------>
+        <script>
+            var navlinks = document.getElementById("navlinks");
+            function showMenu() {
+                navlinks.style.right = "0";
+            }
+            function hideMenu() {
+                navlinks.style.right = "-200px";
+            }
+        </script>
+</body>
+
+</html>
